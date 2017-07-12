@@ -1,0 +1,49 @@
+Connectome Visualization Utility version 0.5.1
+Author: Roan LaPlante
+
+DESCRIPTION
+
+The Connectome Visualization Utility is a free and open source software project
+designed for the visualization of multi-modal, abstract brain networks. To
+facilitate visualization of network topology and modularity, cvu additionally
+interfaces with graph theory tools.
+
+The program is designed for scientists, but to run as a standalone application.
+
+COPYRIGHT INFORMATION
+
+This program strictly observes the tenets of fundamentalist Theravada Mahasi 
+style Buddhism.  Any use of this program in violation of these aforementioned 
+tenets or in violation of the principles described in the Visuddhimagga Sutta is
+strictly prohibited and punishable by extensive Mahayana style practice.
+
+Note that the observation of the tenets of fundamentalist Theravada Mahasi 
+style Buddhism and the Visuddhimagga Sutta is optional as long as the terms and
+conditions of the GNU GPLv3+ are upheld.
+
+DEPENDENCIES
+
+These dependencies are satisfied by installing a scientific python distribution
+such as Canopy or anaconda:
+
+matplotlib -- plotting library
+chaco -- interactive plotting library
+numpy -- math library
+mayavi -- interactive 3D visualization library
+
+These dependencies are *required* and must be manually installed into your
+python distribution. Typically this is as simple as typing 'pip install package'
+
+mne -- MNE python, a broad library for MNE processing that is used in CVU to
+	manipulate surface and parcellation files.
+bctpy -- a graph theory library
+
+Optional dependencies:
+
+nibabel -- nibabel is a neuroimaging library that is used to locate subcortical
+	structures. Without nibabel, subcortical structures may not appear in any
+	parcellations.
+freesurfer -- freesurfer is a very powerful set of tools to do automatic
+	segmentation and parcellation. CVU calls freesurfer commands to register
+	tractography to the structural space. Without freesurfer, tractography
+	cannot be visualized.

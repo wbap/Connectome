@@ -1,0 +1,6 @@
+wxPython==3.0.0.0
+traitsui==4.5.1
+enable==4.5.1
+chaco==4.5.0
+vtk==6.3.0
+kiwisolver==0.1.3
