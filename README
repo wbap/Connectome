@@ -47,3 +47,6 @@ freesurfer -- freesurfer is a very powerful set of tools to do automatic
 	segmentation and parcellation. CVU calls freesurfer commands to register
 	tractography to the structural space. Without freesurfer, tractography
 	cannot be visualized.
+
+Open following URL for setting environmental setup
+http://qiita.com/skyair55/items/19d5e517a2396778de7f
